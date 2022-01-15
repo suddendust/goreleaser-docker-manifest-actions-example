@@ -1,6 +1,6 @@
 name: goreleaser
 
-on: push
+on: issue_comment
 
 permissions:
   contents: write
