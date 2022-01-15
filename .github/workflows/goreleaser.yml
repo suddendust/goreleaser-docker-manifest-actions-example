@@ -1,5 +1,8 @@
 name: goreleaser
-on: issue_comment
+on:
+  push:
+    tags:
+      - '*'
 
 jobs:
 #  tag:issue_comment:
